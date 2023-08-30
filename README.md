@@ -1,4 +1,4 @@
-## Books_Evaluation : Find the right model that predicts book rating.
+## Book_Valuations : Find the right ML model that predicts book rating.
 
 
 ### Table of Contents
