@@ -12,23 +12,17 @@
 
 ### What is the project ? <a name="projet"></a>
 
-The purpose of this project is to train the right ML model that predicts the possible rating of a new book.
+The purpose of this project is to train the right ML model that predicts the possible rating of a new book. The underlying aim of the project is to answer the question that every reader asks: "Which of all these published books is the best one to choose? 
 
-The dataset provided is an extract from Goodreads (https://www.goodreads.com/)
+The dataset provided is an extract from Goodreads (https://www.goodreads.com/).
 
 ### Installation <a name="install"></a>
 
-This project is composed of the following files :
- - Book_Genre.ipynb => create a csv file with the genre of each books - file created : 'Genre.csv'
- - Book_Authors+List.ipynb => create two specific files about authors and details about the books - files created : 'df_BooksList
- - Book_Rating => create the file with all the information for each book. This file will be used for Machine Learning - file created : 'Book_Rating.
+The project is made in two parts. The first part is the constitution of the dataset. The second part focuses on the choice of the models, their training, their performance and the final solution chosen.
 
-To explore this project download the 
+I deliberately choose to separate the project into two Jupyter Notebook files corresponding to each part of the project. For the part 1, open the file 'Book_Valuation_Dataset.ipynb', and for the part 2 open the file 'Book_Valuation_MachineLearning.ipynb'.
 
-Open the file 
-
-All dependencies to install are listed in requirements.txt file. 
-
+All dependencies to install are listed in 'requirements.txt' file. 
 
 ### Files Descriptions <a name="files"></a>
 
