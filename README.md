@@ -18,6 +18,11 @@ The dataset provided is an extract from Goodreads (https://www.goodreads.com/)
 
 ### Installation <a name="install"></a>
 
+This project is composed of the following files :
+ - Book_Genre.ipynb => create a csv file with the genre of each books - file created : 'Genre.csv'
+ - Book_Authors+List.ipynb => create two specific files about authors and details about the books - files created : 'df_BooksList
+ - Book_Rating => create the file with all the information for each book. This file will be used for Machine Learning - file created : 'Book_Rating.
+
 To explore this project download the 
 
 Open the file 
