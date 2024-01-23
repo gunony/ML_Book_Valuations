@@ -26,27 +26,13 @@ All dependencies to install are listed in 'requirements.txt' file.
 
 ### Files Descriptions <a name="files"></a>
 
- * books.csv : 
-        "bookID" A unique identification number for each book.
-        "title" The name under which the book was published.
-        "authors" The names of the authors of the book. Multiple authors are delimited by “/”.
-        "average_rating" The average rating of the book received in total.
-        "isbn" Another unique number to identify the book, known as the International Standard Book Number.
-        "isbn13" A 13-digit ISBN to identify the book, instead of the standard 11-digit ISBN.
-        "language_code" Indicates the primary language of the book. For instance, “eng” is standard for English.
-        "num_pages" The number of pages the book contains.
-        "ratings_count" The total number of ratings the book received.
-        "text_reviews_count" The total number of written text reviews the book received.
-        "publication_date" The date the book was published
-        "publisher" The name of the book publisher.
-    
- * Books_Final.csv :
-       "bookID" A unique identification number for each book.
-       "title" The name under which the book was published.
-       "authors" The unique name of an author
-       "average_rating" The average rating of the book received in total
-       "isbn" Another unique number to identify the book, known as the International Standard Book Number.
-       "isbn13" A 13-digit ISBN to identify the book, instead of the standard 11-digit ISBN.
+Books_Final.csv :
+- "bookID" A unique identification number for each book.
+- "title" The name under which the book was published.
+- "authors" The unique name of an author
+- "average_rating" The average rating of the book received in total
+- "isbn" Another unique number to identify the book, known as the International Standard Book Number.
+- "isbn13" A 13-digit ISBN to identify the book, instead of the standard 11-digit ISBN.
        "language_code" Indicates the primary language of the book. For instance, “eng” is standard for English."isbn" 
        "num_pages" The number of pages the book contains.
        "ratings_count" The total number of ratings the book received
@@ -63,8 +49,9 @@ All dependencies to install are listed in 'requirements.txt' file.
        "book_format" audio book or paper book
        "audio 0 book 1" audio = 0 / book = 1
 
- * .ipynb : 
-        This notebook conducts 
+Book_Valuation_Dataset.ipynb : This notebook, relating to the first part of the project, creates the file that will be used for machine learning (part 2).
+
+Book_Valuation_MachineLearning.ipynb : This notebook is the Machine learning part of the project.
 
 ### Authors & Motivations <a name="authors"></a>
 
