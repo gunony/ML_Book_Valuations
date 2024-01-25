@@ -33,25 +33,23 @@ Books_Final.csv :
 - "average_rating" The average rating of the book received in total
 - "isbn" Another unique number to identify the book, known as the International Standard Book Number.
 - "isbn13" A 13-digit ISBN to identify the book, instead of the standard 11-digit ISBN.
-       "language_code" Indicates the primary language of the book. For instance, “eng” is standard for English."isbn" 
-       "num_pages" The number of pages the book contains.
-       "ratings_count" The total number of ratings the book received
-       "text_reviews_count" The total number of written text reviews the book received.
-       "publication_date" The date the book was published
-       "publisher" The name of the book publisher.
-       "book_genre" Each book has its main category of writing splitted per column with 1 as identifier
-       "genres.children / genres.comics, graphic / genres.fantasy, paranormal / genres.fiction /
-       genres.history, historical fiction, biography / genres.mystery, thriller, crime /
-       genres.non-fiction / genres.poetry / genres.romance / genres.young-adult"
-       "Months_Until_Today" Nb of month from the publication until sept. 2023
-       "co-authors" The authors name which contributed to the book (illustrator, translator,...)
-       "authors_rating"  the rating of the author for all its books
-       "book_format" audio book or paper book
-       "audio 0 book 1" audio = 0 / book = 1
+- "language_code" Indicates the primary language of the book. For instance, “eng” is standard for English."isbn" 
+- "num_pages" The number of pages the book contains.
+- "ratings_count" The total number of ratings the book received
+- "text_reviews_count" The total number of written text reviews the book received.
+- "publication_date" The date the book was published
+- "publisher" The name of the book publisher.
+- 10 book's genre with the rating given by the readers
+- "main_genre" the name of the genre with the major rating
+- "Months_Until_Today" Nb of month from the publication until sept. 2023
+- "co-authors" The authors name which contributed to the book (illustrator, translator,...)
+- "authors_rating"  the rating of the author for all its books
+- "book_format" audio book or paper book
+- "audio 0 book 1" audio = 0 / book = 1
 
-Book_Valuation_Dataset.ipynb : This notebook, relating to the first part of the project, creates the file that will be used for machine learning (part 2).
+Book_Valuation_Dataset.ipynb : This notebook, relating to the first part of the project, creates the file that will be used for machine learning (part 2) : 'Books_Final.csv'.
 
-Book_Valuation_MachineLearning.ipynb : This notebook is the Machine learning part of the project.
+Book_Valuation_MachineLearning.ipynb : This notebook is the Machine learning part of the project. IN PROGRESS !!!
 
 ### Authors & Motivations <a name="authors"></a>
 
