@@ -47,7 +47,7 @@ Books_Final.csv :
 - "book_format" audio book or paper book
 - "audio 0 book 1" audio = 0 / book = 1
 
-Book_Valuation_Dataset.ipynb : This notebook, relating to the first part of the project, creates the file that will be used for machine learning (part 2) : 'Books_Final.csv'.
+Book_Valuation_Dataset.ipynb : This notebook, relating to the first part of the project, creates the data used for machine learning (part 2).
 
 Book_Valuation_MachineLearning.ipynb : This notebook is the Machine learning part of the project. IN PROGRESS !!!
 
